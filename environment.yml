@@ -1,0 +1,12 @@
+name: agent_network
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip:
+    - openai
+    - fastapi
+    - asyncio
+    - httpx
+    - python-dotenv
+    - pyaml
